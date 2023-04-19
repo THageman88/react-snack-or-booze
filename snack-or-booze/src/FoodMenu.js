@@ -29,7 +29,7 @@ function FoodMenu({ snacks, drinks }) {
             {link} Menu
           </CardTitle>
           <CardText>
-            Here's our list of  {link}!
+            See all of our {link}!
           </CardText>
           <ListGroup>
             {items.map(item => (
@@ -43,3 +43,5 @@ function FoodMenu({ snacks, drinks }) {
     </section>
   );
 }
+
+export default FoodMenu;
