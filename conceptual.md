@@ -38,5 +38,9 @@ In React, context is a way to pass data through the component tree without havin
 
 - Describe some differences between class-based components and function
   components in React.
+Class-based components are created using the class syntax, while function components are created using a function  expression.
+Render method: Class-based components require a render() method to return the JSX that defines the component's UI. Function components simply return JSX.
 
 - What are some of the problems that hooks were designed to solve?
+Reusing Stateful Logic: In class-based components, stateful logic is often tied to the component's lifecycle methods, making it difficult to reuse across multiple components. Hooks provide a way to reuse stateful logic across multiple components without having to use higher-order components or render props
+Complex Component Hierarchies: In class-based components, passing props down through multiple levels of component hierarchies is tedious,can be sloppy, as well as error-prone. With Hooks, stateful logic can be encapsulated within custom Hooks allowing for a simpler and more modular component hierarchy.
